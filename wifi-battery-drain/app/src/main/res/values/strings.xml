@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wi-Fi Battery Drain</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="permission_error">Permissions are required.</string>
+    <string name="edit_text_interval_hint">The interval (ms)</string>
+    <string name="error_required">Required.</string>
+    <string name="notification_text">The service is running</string>
+    <string name="notification_title">Wi-Fi battery drain</string>
+</resources>

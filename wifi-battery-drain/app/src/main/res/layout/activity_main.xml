@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/view_top"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.lakeel.altla.sample.wifibatterydrain.MainActivity">
+
+    <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_input_layout"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        <EditText android:id="@+id/edit_text_interval"
+                  android:inputType="number"
+                  android:hint="@string/edit_text_interval_hint"
+                  android:maxLines="1"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout android:gravity="center_horizontal"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <Button android:id="@+id/button_start"
+                android:text="@string/button_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/button_stop"
+                android:text="@string/button_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
